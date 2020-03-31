@@ -29,7 +29,6 @@ services:
     env_file:
       - .env
     #user: 501:501
-  services:
   # brocker
   redis:
     image: redis:3.2.6
